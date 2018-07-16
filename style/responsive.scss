@@ -1,0 +1,120 @@
+// Variables
+$mainGreen: #64b83d;
+$mainGrey: #1d1814;
+$white: #FFF;
+$black: #000;
+$facebookColor: #3b5998;
+$twitterColor: #1da1f2;
+$googleColor: #dc4e41;
+$linkedInColor: #0084b1;
+
+@media screen and (max-width: 1024px) {
+    // Slider Section Styling Start
+    .slider-section {
+        // Slider Text Start
+        .slider-text {
+            // Title and Heart Icon Start
+            // Title Start
+            .slider-text-title {
+                h1 {
+                    font-size: 290%;
+                }
+            }
+            // Title End
+        
+            // Heart Icon Start
+            .heart-icon {
+                i {
+                    font-size: 190%;
+                }
+            }
+            // Heart Icon End
+            // Title and Heart Icon End
+        }
+        // Slider Text End
+    }
+    // Slider Section Styling End
+}
+@media screen and (max-width: 768px) {
+    // Main Navigation and Logo Start
+    .main-nav {
+        // Responsive Nav and Logo Styling Start
+        .res-logo {
+            display: block !important;
+        }
+        .res-nav-button {
+            display: block !important;
+        }
+        // Responsive Nav and Logo Styling End
+    
+        // Left Nav, Right Nav Start
+        .left-nav {
+            display: none;
+        }
+        .left-nav, .right-nav {
+            display: none;
+        }
+        // Left Nav, Right Nav End
+        
+        // Logo Start
+        .logo {
+            display: none;
+        }
+        // Logo End
+    }
+    // Main Navigation and Logo End
+    // Main Header Styling End
+
+    // Slider Section Styling Start
+    .slider-section {
+        // Slider Text Start
+        .slider-text {
+            margin-left: 2rem;
+            // Title and Heart Icon Start
+            // Title Start
+            .slider-text-title {
+                h1 {
+                    font-size: 400%;
+                }
+            }
+            // Title End
+        
+            // Heart Icon Start
+            .heart-icon {
+                display: none;
+            }
+            // Heart Icon End
+            // Title and Heart Icon End
+        }
+        // Slider Text End
+    }
+    // Slider Section Styling End
+
+    // Send Us A Messages Section Styling Start
+    .sendMessageSection {
+        .sendMessageContent {
+        // Send Message Form Start
+            .sendUsForm {
+                input {
+                    width: 31%;
+                }
+            }
+        // Send Message Form End
+        }
+    }
+    // Send Message Section End
+}
+@media screen and (max-width: 414px) {
+    // Main Navigation and Logo Start
+    .main-nav {
+        // Responsive Nav and Logo Styling Start
+        .res-logo {
+            img {
+                width: 30% !important;
+            }
+        }
+        // Logo End
+    }
+    // Main Navigation and Logo End
+    // Main Header Styling End
+}

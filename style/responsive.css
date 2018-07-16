@@ -1,0 +1,31 @@
+@media screen and (max-width: 1024px) {
+  .slider-section .slider-text .slider-text-title h1 {
+    font-size: 290%; }
+  .slider-section .slider-text .heart-icon i {
+    font-size: 190%; } }
+@media screen and (max-width: 768px) {
+  .main-nav .res-logo {
+    display: block !important; }
+  .main-nav .res-nav-button {
+    display: block !important; }
+  .main-nav .left-nav {
+    display: none; }
+  .main-nav .left-nav, .main-nav .right-nav {
+    display: none; }
+  .main-nav .logo {
+    display: none; }
+
+  .slider-section .slider-text {
+    margin-left: 2rem; }
+    .slider-section .slider-text .slider-text-title h1 {
+      font-size: 400%; }
+    .slider-section .slider-text .heart-icon {
+      display: none; }
+
+  .sendMessageSection .sendMessageContent .sendUsForm input {
+    width: 31%; } }
+@media screen and (max-width: 414px) {
+  .main-nav .res-logo img {
+    width: 30% !important; } }
+
+/*# sourceMappingURL=responsive.css.map */
